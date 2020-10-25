@@ -21,7 +21,10 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Space) && Physics2D.Raycast(_rb.position, Vector2.down, 0.6f, platformLayer))
+        if (Input.GetKey(KeyCode.Space) && (
+            Physics2D.Raycast(_rb.position, Vector2.down, 2f, platformLayer) ||
+            Physics2D.Raycast(_rb.position, Vector2.right, 2f, platformLayer) ||
+            Physics2D.Raycast(_rb.position, Vector2.left, 2f, platformLayer)))
             _rb.AddForce(Time.deltaTime * jumpForce * Vector2.up);
 
         // for movement that does not suck

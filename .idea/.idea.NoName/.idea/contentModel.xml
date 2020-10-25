@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\aniru\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -12,6 +12,9 @@
           <e p="CollisionDon.cs" t="Include" />
           <e p="Dash.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Buttons.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="NoName.sln" t="IncludeFlat" />

@@ -8,7 +8,7 @@ using UnityEngine.Serialization;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private LayerMask platformLayer;
+    public LayerMask platformLayer;
 
     public float jumpForce = 5f;
     public float movementSpeed = 5f;

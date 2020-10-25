@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.Serialization;
 
 public class Movement : MonoBehaviour
@@ -21,11 +22,15 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Space) && (
-            Physics2D.Raycast(_rb.position, Vector2.down, 2f, platformLayer) ||
-            Physics2D.Raycast(_rb.position, Vector2.right, 2f, platformLayer) ||
-            Physics2D.Raycast(_rb.position, Vector2.left, 2f, platformLayer)))
-            _rb.AddForce(Time.deltaTime * jumpForce * Vector2.up);
+        if (Input.GetKey(KeyCode.Space))
+        {
+            if (Physics2D.Raycast(_rb.position, Vector2.down, 2f, platformLayer))
+                _rb.AddForce(Time.deltaTime * jumpForce * Vector2.up);
+            if (Physics2D.Raycast(_rb.position, Vector2.right, 1.5f, platformLayer))
+                _rb.AddForce(Time.deltaTime * jumpForce * new Vector2(-1, 1.5f));
+            if (Physics2D.Raycast(_rb.position, Vector2.left, 1.5f, platformLayer))
+                _rb.AddForce(Time.deltaTime * jumpForce * new Vector2(1, 1.5f));
+        }
 
         // for movement that does not suck
 //        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
@@ -33,7 +38,5 @@ public class Movement : MonoBehaviour
 
         if (_rb.velocity.magnitude < movementClamp)
             _rb.AddForce(movementSpeed * Time.deltaTime * Input.GetAxis("Horizontal") * Vector2.right);
-
     }
-    
 }

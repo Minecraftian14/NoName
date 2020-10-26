@@ -8,9 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="betterjump.cs" t="Include" />
-          <e p="camera.cs" t="Include" />
+          <e p="CameraMovement.cs" t="Include" />
           <e p="CollisionDon.cs" t="Include" />
           <e p="Dash.cs" t="Include" />
+          <e p="Grapple.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Damage.cs" t="Include" />

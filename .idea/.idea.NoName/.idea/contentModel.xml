@@ -12,6 +12,10 @@
           <e p="CollisionDon.cs" t="Include" />
           <e p="Dash.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="Damage.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="Buttons.cs" t="Include" />
           </e>

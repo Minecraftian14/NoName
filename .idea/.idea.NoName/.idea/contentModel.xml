@@ -12,6 +12,7 @@
           <e p="CollisionDon.cs" t="Include" />
           <e p="Dash.cs" t="Include" />
           <e p="Grapple.cs" t="Include" />
+          <e p="groundpound.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Damage.cs" t="Include" />

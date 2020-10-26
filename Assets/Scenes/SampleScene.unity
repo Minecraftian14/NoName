@@ -590,8 +590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallSpeed: 1000
-  elevator: 400
-  rb: {fileID: 0}
+  elevator: 300
+  poundforce: 10
 --- !u!114 &1615690528
 MonoBehaviour:
   m_ObjectHideFlags: 0

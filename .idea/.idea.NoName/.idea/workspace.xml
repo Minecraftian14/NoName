@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="68b6f410-cf55-4b3e-b908-ef5875fc3413" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/groundpound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GroundPound.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grapple.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GroundPound.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,7 +37,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/camera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisonDon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionDon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dash.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/PlayButton.cs" />
@@ -48,6 +47,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SHIT.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grapple.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GroundPound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +100,7 @@
       <updated>1603544376491</updated>
       <workItem from="1603544381233" duration="8648000" />
       <workItem from="1603642930421" duration="5804000" />
-      <workItem from="1603731575685" duration="1989000" />
+      <workItem from="1603731575685" duration="3602000" />
     </task>
     <servers />
   </component>

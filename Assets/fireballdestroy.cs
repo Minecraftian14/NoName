@@ -5,6 +5,7 @@ using UnityEngine;
 public class fireballdestroy : MonoBehaviour
 {
     
+    
     void Start()
     {
         
@@ -12,9 +13,20 @@ public class fireballdestroy : MonoBehaviour
 
     
     
-        void OnTriggerEnter2D()
-		{
+        void OnTriggerEnter2D(Collider2D hitInfo)
+	{
             Destroy (gameObject);
-		}
-    
+        //tree burnable = hitInfo.GetComponent<tree>();
+        //if (burnable != null)
+        //{
+        //    burnable.burn();
+        //}
+        burning b = hitInfo.GetComponent<burning>();
+        if(b != null)
+        Destroy(b.gameObject);
+    }
+  
+
+
+
 }

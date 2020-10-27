@@ -38,7 +38,7 @@ public class BetterJump : MonoBehaviour
                 _rb.AddForce(Time.deltaTime * fallSpeed * Vector2.down);
         }
 
-        print(_buffer);
+        
         if (_isPound && Physics2D.Raycast(_rb.position, Vector2.down, 2f, _platformLayer))
         {
             _cameraMovement.modifier = _buffer;

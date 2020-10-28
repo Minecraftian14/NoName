@@ -22,6 +22,8 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (_rb.velocity.x != 0)
+            transform.rotation = Quaternion.Euler(0, _rb.velocity.x < 0 ? 180 : 0, 0);
         if (Input.GetKey(KeyCode.Space))
         {
             if (Physics2D.Raycast(_rb.position, Vector2.down, 2f, platformLayer))

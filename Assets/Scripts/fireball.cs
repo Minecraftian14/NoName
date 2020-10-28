@@ -7,7 +7,7 @@ public class fireball : MonoBehaviour
 
     private Rigidbody2D _rb;
     public GameObject fired;
-    public           Transform firepoinnt;
+    public Transform firepoinnt;
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -16,7 +16,7 @@ public class fireball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_rb.velocity.x !=0)
+        if(_rb.velocity.x !=0 ) 
         transform.rotation = Quaternion.Euler(0, _rb.velocity.x < 0 ? 180 : 0, 0);
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {

@@ -16,8 +16,7 @@ public class fireball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_rb.velocity.x !=0 ) 
-        transform.rotation = Quaternion.Euler(0, _rb.velocity.x < 0 ? 180 : 0, 0);
+      
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Instantiate(fired,firepoinnt.position,firepoinnt.rotation);

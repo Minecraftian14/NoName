@@ -5,9 +5,12 @@ using UnityEngine;
 public class gravityreverse : MonoBehaviour
 {
     private Rigidbody2D _rb;
+    public bool rev = false;
+   
     void Start()
 	{
         _rb = GetComponent<Rigidbody2D>();
+       
     }
 
     // Update is called once per frame
@@ -15,10 +18,7 @@ public class gravityreverse : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-
             reverse();
-
-
 
         }
         
@@ -27,5 +27,6 @@ public class gravityreverse : MonoBehaviour
 	{
         _rb.gravityScale *= -1;
         transform.Rotate (0, 0, 180f);
+        rev = !rev;
     }
 }

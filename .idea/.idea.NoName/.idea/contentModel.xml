@@ -13,6 +13,12 @@
           <e p="Dash.cs" t="Include" />
           <e p="Grapple.cs" t="Include" />
           <e p="groundpound.cs" t="Include" />
+          <e p="Guns" t="Include">
+            <e p="BulletDirection.cs" t="Include" />
+            <e p="GunModel.cs" t="Include" />
+            <e p="GunShootBehaviour.cs" t="Include" />
+            <e p="Revolver.cs" t="Include" />
+          </e>
           <e p="Movement.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Damage.cs" t="Include" />

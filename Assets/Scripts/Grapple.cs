@@ -25,7 +25,7 @@ public class Grapple : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             Vector2 mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
 

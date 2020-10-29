@@ -14,14 +14,19 @@ public class Movement : MonoBehaviour
     public float movementSpeed = 5f;
     public float movementClamp = 50f;
     private Rigidbody2D _rb;
+    private gravityreverse _gr;
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _gr = GetComponent<gravityreverse>();
     }
 
     void FixedUpdate()
     {
+        if (_rb.velocity.x != 0)
+            transform.rotation = Quaternion.Euler(0, _rb.velocity.x < 0 ? 180 : 0, _gr.rev?180:0);
+        
         if (Input.GetKey(KeyCode.Space))
         {
             if (Physics2D.Raycast(_rb.position, Vector2.down, 2f, platformLayer))

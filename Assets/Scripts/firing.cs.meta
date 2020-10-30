@@ -1,18 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class firing : MonoBehaviour
-{
-public        float    fireballspeed 20f;
-public Rigidbody2D  fireballrb;
-   
-    void Start()
-    {
-        fireballrb.velocity =  transform.right * fireballspeed
-
-
-    }
-
- 
-}
+fileFormatVersion: 2
+guid: ec9fe9f3f0502d046a34fdeb63ddcb89
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

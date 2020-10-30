@@ -6,27 +6,21 @@ public class gravityreverse : MonoBehaviour
 {
     private Rigidbody2D _rb;
     public bool rev = false;
-   
+
     void Start()
-	{
+    {
         _rb = GetComponent<Rigidbody2D>();
-       
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            reverse();
-
-        }
-        
+        if (Input.GetKeyDown(KeyCode.W)) reverse();
     }
+
     void reverse()
-	{
+    {
         _rb.gravityScale *= -1;
-        transform.Rotate (0, 0, 180f);
+        transform.localScale = new Vector3(1, rev ? 1 : -1, 1);
         rev = !rev;
     }
 }

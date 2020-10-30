@@ -8,11 +8,15 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="betterjump.cs" t="Include" />
+          <e p="burning.cs" t="Include" />
           <e p="CameraMovement.cs" t="Include" />
           <e p="CollisionDon.cs" t="Include" />
           <e p="Dash.cs" t="Include" />
+          <e p="fireball.cs" t="Include" />
+          <e p="fireballdestroy.cs" t="Include" />
+          <e p="firing.cs" t="Include" />
           <e p="Grapple.cs" t="Include" />
-          <e p="groundpound.cs" t="Include" />
+          <e p="gravityreverse.cs" t="Include" />
           <e p="Guns" t="Include">
             <e p="BulletDirection.cs" t="Include" />
             <e p="GunModel.cs" t="Include" />

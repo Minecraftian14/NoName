@@ -22,7 +22,7 @@ public class GunShootBehaviour : MonoBehaviour
         _gunPos.position = transform.position + transform.up;
         _rb = GetComponent<Rigidbody2D>();
 
-        _gun = new Revolver(bullet);
+        _gun = new Shotgun(bullet, this);
         _camera = Camera.main;
     }
 
@@ -33,6 +33,8 @@ public class GunShootBehaviour : MonoBehaviour
         _rotationFactorY = Math.Sign(_gunPos.localPosition.x);
 
         _gunPos.localScale = new Vector3(0.5f, 0.5f * (_rotationFactorY == 0 ? 1 : _rotationFactorY), 1);
+
+        _gun.Update();
     }
 
     private void FixedUpdate()

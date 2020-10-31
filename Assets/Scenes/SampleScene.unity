@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 1615690533}
   - component: {fileID: 1615690534}
   - component: {fileID: 1615690535}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 1734368014}
   - component: {fileID: 1734368016}
   - component: {fileID: 1734368015}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5678,7 +5678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813347664}
   - component: {fileID: 1813347665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5873,7 +5873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839377478}
   - component: {fileID: 1839377479}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}

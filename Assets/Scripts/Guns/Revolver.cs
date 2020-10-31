@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Revolver : GunModel
 {
-    public Revolver(GameObject bullet) : base(bullet)
+    public Revolver(GameObject bullet, GunShootBehaviour behaviour) : base(bullet, behaviour)
     {
+        Speed = 10;
+        Inaccuracy = 0.5f;
+        BarrelSize = 6;
+        ReloadSpeed = 6;
+        TimeBtwShots = 1.2f;
+        BulletsPerShot = 1;
+        
+        Reset();
     }
-
-//    public override void Shoot(Vector3 pos, Vector3 angle)
-//    {
-//        GameObject gb = Object.Instantiate(Bullet, pos, Quaternion.identity);
-//        gb.transform.LookAt(pos + angle);
-//        gb.GetComponent<Rigidbody2D>().AddForce(100 * Speed * angle.normalized);
-//    }
 }

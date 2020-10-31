@@ -3,13 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="68b6f410-cf55-4b3e-b908-ef5875fc3413" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoName/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prince No Name.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prince No Name.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Guns/shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Guns/shot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/BulletDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/BulletDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/GunModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/GunModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/GunShootBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/GunShootBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/firing.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/firing.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns/Revolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns/Revolver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/gravityreverse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gravityreverse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +27,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/GunShootBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/Sniper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/Revolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/GunModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/Shotgun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05250243-5982-472D-92DA-7F939C7F8164/74/e336fa20/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05250243-5982-472D-92DA-7F939C7F8164/7b/5add4118/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/firing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Buttons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05250243-5982-472D-92DA-7F939C7F8164/5b/e526f325/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05250243-5982-472D-92DA-7F939C7F8164/d9/1070792d/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -39,7 +48,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05250243-5982-472D-92DA-7F939C7F8164/d4/575ad999/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/GraphicEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Guns/BulletDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grapple.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -61,11 +69,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Grapple.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GroundPound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BetterJump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/Revolver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/GunModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Guns/BulletDirection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gravityreverse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/BulletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/Revolver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Guns/GunShootBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/Shotgun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/GunModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Guns/Sniper.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +133,8 @@
       <workItem from="1603951603239" duration="3033000" />
       <workItem from="1603955867897" duration="1304000" />
       <workItem from="1604045659414" duration="5649000" />
+      <workItem from="1604070873538" duration="5360000" />
+      <workItem from="1604123485250" duration="5949000" />
     </task>
     <servers />
   </component>

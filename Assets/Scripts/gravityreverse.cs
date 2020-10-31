@@ -19,7 +19,7 @@ public class gravityreverse : MonoBehaviour
 
     void reverse()
     {
-        _rb.gravityScale *= -1;
+        _rb.gravityScale *= rev ? 1 : -1;
         transform.localScale = new Vector3(1, rev ? 1 : -1, 1);
         rev = !rev;
     }
